@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1D04EE28-008D-3C6A-EC6D-5E3913F9C08E}</ProjectGuid>
+    <ProjectGuid>{E9F6A016-2E51-0BDE-BADE-0AF8BEBF4684}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,17 +67,37 @@
     <Compile Include="Assets\boss\script\Boss_movement.cs" />
     <Compile Include="Assets\boss\script\Boss_pattern.cs" />
     <Compile Include="Assets\boss\script\New.cs" />
+    <Compile Include="Assets\New\bullet.cs" />
+    <Compile Include="Assets\New\enemy.cs" />
+    <Compile Include="Assets\New\enemy_pattern\1\bullet_1.cs" />
+    <Compile Include="Assets\New\enemy_pattern\1\enemy_1.cs" />
+    <Compile Include="Assets\New\enemy_pattern\2_multishot\bullet_2.cs" />
+    <Compile Include="Assets\New\enemy_pattern\2_multishot\enemy_2.cs" />
+    <Compile Include="Assets\New\player.cs" />
     <Compile Include="Assets\player\Script\Bullet.cs" />
     <Compile Include="Assets\player\Script\clone.cs" />
     <Compile Include="Assets\player\Script\clone_shoot.cs" />
     <Compile Include="Assets\player\Script\move_shoot.cs" />
+    <Compile Include="Assets\Test\guidedmissile.cs" />
     <Compile Include="Assets\Test\New_Bullet.cs" />
     <Compile Include="Assets\Test\Test_Shoot.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/huijun/Documents/GitHub/탄막 슈팅 게임 test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/huijun/Documents/GitHub/탄막 슈팅 게임 test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -261,6 +281,15 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.9f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/huijun/Documents/GitHub/New Unity Project (1)/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.9f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -6,6 +6,7 @@ public class Test_Shoot : MonoBehaviour
 {
     public GameObject Bullet_1;
     public GameObject Bullet_2;
+    public GameObject gm;
     public Transform Firepos;
 
     public GameObject player;
@@ -28,6 +29,8 @@ public class Test_Shoot : MonoBehaviour
         Operating();
 
         Debug.Log(Vector2.Angle(Firepos.transform.position, player.transform.position));
+
+        if (Input.GetKeyDown(KeyCode.I)) Instantiate(gm);
         
     }
 
